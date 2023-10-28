@@ -65,3 +65,28 @@ header a:hover{
     display: inline;
     border: solid 1px rgb(33, 0, 122);
 }
+
+
+/*Table Section */
+table {
+    border: 1px solid rgb(33, 0, 122);
+}
+th {
+    border: 1px solid rgb(33, 0, 122);
+    padding: 10px;
+}
+td{
+    border: 1px solid rgb(33, 0, 122);
+    padding: 10px;
+}
+tr {
+    border: 1px solid rgb(33, 0, 122);
+    padding: 10px;
+}
+
+
+/*Aside Section*/
+.info {
+    border: 2px solid rgb(33, 0, 122);
+    width: fit-content;
+}
