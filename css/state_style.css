@@ -12,13 +12,16 @@ html {
 /*Header Section*/
 header {
     text-align: center;
-    color: rgb(33, 0, 122);
+    color: rgb(70, 81, 247);
 }
 h1 {
     font-size: 7vw;
     margin: auto;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
 }
 header .motto {
+    font-size: 2vw;
     font-style: italic;
     margin: auto;
 }
@@ -26,6 +29,7 @@ header p{
     display: inline;
 }
 header a{
+    font-size: 2vw;
     display: inline;
     padding: .5%;
     margin: .5%;
@@ -33,7 +37,7 @@ header a{
     color: rgb(33, 0, 122);
 }
 header a:hover{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(245, 100, 100);
 }
 
 
@@ -43,6 +47,7 @@ header a:hover{
     margin: 1%;
 }
 .nav a{
+    font-size: 2vw;
     margin: 2%;
     padding: .5%;
     text-align: center;
@@ -50,7 +55,7 @@ header a:hover{
     color: rgb(33, 0, 122);
 }
 .nav a:hover {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(245, 100, 100);
 }
 
 
