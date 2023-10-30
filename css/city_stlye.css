@@ -47,3 +47,57 @@ header p {
     background-color: rgb(245, 100, 100);
 }
 
+/*Aside Section*/
+aside {
+    margin: 10px;
+    width: 30vw;
+    float: right;
+}
+.info {
+    border: 2px solid rgb(33, 0, 122);
+    width: 2px solid ;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(243, 244, 245, .5);
+}
+
+/*Body*/
+section {
+    width: 65vw;
+    margin-top: 10px;
+    padding: 3px;
+    background-color: rgb(243, 244, 245, .5);
+    border: 2px solid rgb(33, 0, 122);
+    font-weight: 500;
+    display: inline-block;
+}
+.pic {
+    margin: 10px;
+    height: 45%;
+    width: 45%;
+    float: left;
+    border: solid 1px rgb(33, 0, 122);
+}
+section lh {
+    text-decoration: underline;
+}
+.attractions {
+    padding: 2px;
+    width: fit-content;
+    display: inline-block;
+}
+.eat {
+    width: fit-content;
+    display: inline-block;
+}
+.eat ol{
+    list-style-position: inside;
+    padding: 2px;
+    display: inline-block;
+}
+.eat ul {
+    list-style-type: none;
+    padding-top: 2px;
+    width: fit-content;
+    display: inline-block;
+}
