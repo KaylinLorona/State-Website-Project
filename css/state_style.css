@@ -51,18 +51,20 @@ header .motto {
 /*Body*/
 section {
     width: 50vw;
-    color: black;
-    font-weight: bold;
+    margin-top: 10px;
     float: left;
+    padding: 3px;
     background-color: rgb(243, 244, 245, .5);
+    border: 2px solid rgb(33, 0, 122);
+    font-weight: 500;
 }
 .about {
     display: inline;
 }
 .pic {
     margin: 10px;
-    height: 55%;
-    width: 55%;
+    height: 65%;
+    width: 65%;
     float: left;
     border: solid 1px rgb(33, 0, 122);
 }
@@ -72,6 +74,9 @@ section {
 table {
     border: 2px solid rgb(33, 0, 122);
     float: right;
+    width: 45vw;
+    margin: 10px;
+    margin-top: 6px;
     background-color: rgb(243, 244, 245, .5);
 }
 th {
@@ -81,10 +86,15 @@ th {
 td{
     border: 2px solid rgb(33, 0, 122);
     padding: 10px;
+    font-weight: 500;
 }
 tr {
     border: 2px solid rgb(33, 0, 122);
     padding: 10px;
+    font-weight: 500;
+}
+caption {
+    font-weight: bold;
 }
 
 
