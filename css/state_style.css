@@ -24,21 +24,9 @@ header .motto {
     font-size: 2vw;
     font-style: italic;
     margin: auto;
+    font-weight: 500;
 }
-header p{
-    display: inline;
-}
-header a{
-    font-size: 2vw;
-    display: inline;
-    padding: .5%;
-    margin: .5%;
-    font-style: normal;
-    color: rgb(33, 0, 122);
-}
-header a:hover{
-    background-color: rgb(245, 100, 100);
-}
+
 
 
 /*Navigation*/
@@ -53,6 +41,7 @@ header a:hover{
     text-align: center;
     text-decoration: none;
     color: rgb(33, 0, 122);
+    font-weight: 500;
 }
 .nav a:hover {
     background-color: rgb(245, 100, 100);
@@ -60,38 +49,54 @@ header a:hover{
 
 
 /*Body*/
+section {
+    width: 50vw;
+    color: black;
+    font-weight: bold;
+    float: left;
+    background-color: rgb(243, 244, 245, .5);
+}
 .about {
     display: inline;
 }
 .pic {
     margin: 10px;
-    height: 50%;
-    width: 50%;
-    display: inline;
+    height: 55%;
+    width: 55%;
+    float: left;
     border: solid 1px rgb(33, 0, 122);
 }
 
 
 /*Table Section */
 table {
-    border: 1px solid rgb(33, 0, 122);
+    border: 2px solid rgb(33, 0, 122);
+    float: right;
+    background-color: rgb(243, 244, 245, .5);
 }
 th {
-    border: 1px solid rgb(33, 0, 122);
+    border: 2px solid rgb(33, 0, 122);
     padding: 10px;
 }
 td{
-    border: 1px solid rgb(33, 0, 122);
+    border: 2px solid rgb(33, 0, 122);
     padding: 10px;
 }
 tr {
-    border: 1px solid rgb(33, 0, 122);
+    border: 2px solid rgb(33, 0, 122);
     padding: 10px;
 }
 
 
 /*Aside Section*/
+aside {
+    margin: 10px;
+    width: 45vw;
+    float: right;
+}
 .info {
     border: 2px solid rgb(33, 0, 122);
-    width: fit-content;
+    width: 2px solid ;
+    padding-left: 10px;
+    background-color: rgb(243, 244, 245, .5);
 }
