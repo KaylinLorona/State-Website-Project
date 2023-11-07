@@ -110,3 +110,7 @@ aside {
     padding-left: 10px;
     background-color: rgb(243, 244, 245, .5);
 }
+
+.form p {
+    display: inline-block;
+}
