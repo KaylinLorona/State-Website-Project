@@ -50,6 +50,7 @@ h1 {
 
 /*Body*/
 section {
+
     width: 50vw;
     margin-top: 10px;
     float: left;
@@ -61,12 +62,19 @@ section {
 .about {
     display: inline;
 }
-.pic {
-    margin: 10px;
-    height: 55%;
-    width: 55%;
-    float: left;
-    border: solid 1px rgb(33, 0, 122);
+figure{
+    position: relative;
+    display: inline-block;
+}
+.pic{
+    height: 700%;
+    width: 90%;
+}
+figcaption{
+    font-size: x-small;
+    position: absolute;
+    left: 20px;
+    bottom: 20;
 }
 
 
@@ -111,10 +119,14 @@ aside {
     background-color: rgb(243, 244, 245, .5);
 }
 
+
+/*Form Section*/
 form{
+    position: relative;
     border: 2px solid rgb(33, 0, 122);
-    display: inline-block;
+    float: right;
+    margin: 10px;
+    margin-right: 50vm;
+    padding: 5px;
     text-align: center;
-    margin: auto;
-    margin-top: 10px;
 }
